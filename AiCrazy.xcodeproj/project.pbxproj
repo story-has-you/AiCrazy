@@ -50,6 +50,7 @@
 		53F4ABEE2A9F758B008C9D02 = {
 			isa = PBXGroup;
 			children = (
+				53B095E02AA0CFC000F7F9FB /* README.md */,
 				53F4ABF92A9F758B008C9D02 /* AiCrazy */,
 				53F4ABF82A9F758B008C9D02 /* Products */,
 			);
@@ -74,7 +75,6 @@
 				53F4AC052A9F758D008C9D02 /* AiCrazy.xcdatamodeld */,
 				53F4AC002A9F758D008C9D02 /* Preview Content */,
 				53B095DE2AA0CF7900F7F9FB /* .gitignore */,
-				53B095E02AA0CFC000F7F9FB /* README.md */,
 			);
 			path = AiCrazy;
 			sourceTree = "<group>";
