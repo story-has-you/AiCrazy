@@ -78,6 +78,16 @@ struct EffectRelatedModifier: View {
                 Circle()
                     .shadow(radius: 10, x: 10, y: 20)
             }
+            .foregroundColor(.blue)
+            .padding()
+            
+            // 半透明与虚化
+            HStack {
+                Circle()
+                    .opacity(0.1)
+                Circle()
+                    .blur(radius: 3.0)
+            }
             .foregroundColor(.red)
             .padding()
             
