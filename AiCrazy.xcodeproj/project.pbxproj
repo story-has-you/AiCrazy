@@ -14,6 +14,10 @@
 		53C69B942AA449EB00177828 /* ImageRelatedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C69B932AA449EB00177828 /* ImageRelatedModifier.swift */; };
 		53C69B962AA4517300177828 /* EffectRelatedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C69B952AA4517300177828 /* EffectRelatedModifier.swift */; };
 		53C69B982AA6062A00177828 /* GestureRelatedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C69B972AA6062A00177828 /* GestureRelatedModifier.swift */; };
+		53C69B9B2AA6179500177828 /* AnimationBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C69B9A2AA6179500177828 /* AnimationBaseView.swift */; };
+		53C69B9D2AA61DE900177828 /* PlayButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C69B9C2AA61DE900177828 /* PlayButtonView.swift */; };
+		53C69B9F2AA61F4300177828 /* AnimationProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C69B9E2AA61F4300177828 /* AnimationProgressView.swift */; };
+		53C69BA12AA6252700177828 /* AnimatedCardFlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C69BA02AA6252700177828 /* AnimatedCardFlipView.swift */; };
 		53F4ABFB2A9F758B008C9D02 /* AiCrazyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F4ABFA2A9F758B008C9D02 /* AiCrazyApp.swift */; };
 		53F4ABFD2A9F758B008C9D02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F4ABFC2A9F758B008C9D02 /* ContentView.swift */; };
 		53F4ABFF2A9F758D008C9D02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F4ABFE2A9F758D008C9D02 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 		53C69B932AA449EB00177828 /* ImageRelatedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRelatedModifier.swift; sourceTree = "<group>"; };
 		53C69B952AA4517300177828 /* EffectRelatedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectRelatedModifier.swift; sourceTree = "<group>"; };
 		53C69B972AA6062A00177828 /* GestureRelatedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRelatedModifier.swift; sourceTree = "<group>"; };
+		53C69B9A2AA6179500177828 /* AnimationBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBaseView.swift; sourceTree = "<group>"; };
+		53C69B9C2AA61DE900177828 /* PlayButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButtonView.swift; sourceTree = "<group>"; };
+		53C69B9E2AA61F4300177828 /* AnimationProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationProgressView.swift; sourceTree = "<group>"; };
+		53C69BA02AA6252700177828 /* AnimatedCardFlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCardFlipView.swift; sourceTree = "<group>"; };
 		53F4ABF72A9F758B008C9D02 /* AiCrazy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiCrazy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F4ABFA2A9F758B008C9D02 /* AiCrazyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AiCrazyApp.swift; sourceTree = "<group>"; };
 		53F4ABFC2A9F758B008C9D02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +77,17 @@
 			path = Modifier;
 			sourceTree = "<group>";
 		};
+		53C69B992AA616A500177828 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				53C69B9A2AA6179500177828 /* AnimationBaseView.swift */,
+				53C69B9C2AA61DE900177828 /* PlayButtonView.swift */,
+				53C69B9E2AA61F4300177828 /* AnimationProgressView.swift */,
+				53C69BA02AA6252700177828 /* AnimatedCardFlipView.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		53F4ABEE2A9F758B008C9D02 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +108,7 @@
 		53F4ABF92A9F758B008C9D02 /* AiCrazy */ = {
 			isa = PBXGroup;
 			children = (
+				53C69B992AA616A500177828 /* Animation */,
 				53C69B8E2AA4433500177828 /* Modifier */,
 				53F4AC0D2A9F759C008C9D02 /* View */,
 				53F4ABFA2A9F758B008C9D02 /* AiCrazyApp.swift */,
@@ -204,7 +224,11 @@
 				53F4AC072A9F758D008C9D02 /* AiCrazy.xcdatamodeld in Sources */,
 				53C69B942AA449EB00177828 /* ImageRelatedModifier.swift in Sources */,
 				53C69B902AA4436200177828 /* TextRelatedModifier.swift in Sources */,
+				53C69B9D2AA61DE900177828 /* PlayButtonView.swift in Sources */,
+				53C69B9F2AA61F4300177828 /* AnimationProgressView.swift in Sources */,
+				53C69B9B2AA6179500177828 /* AnimationBaseView.swift in Sources */,
 				53C69B962AA4517300177828 /* EffectRelatedModifier.swift in Sources */,
+				53C69BA12AA6252700177828 /* AnimatedCardFlipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
